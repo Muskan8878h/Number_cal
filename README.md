@@ -23,4 +23,4 @@ A web-based calculator that allows users to:
 
 ## Live Demo
 
-(Add your deployed URL here)
+https://muskan8878h.github.io/Number_cal/
