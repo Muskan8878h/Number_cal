@@ -1,9 +1,26 @@
-Open index.html in a browser.
-Features:
-- Fixed numbers 1-100 and 111..1110
-- Editable values
-- Values >1000 highlighted
-- Column totals
-- Total D (1-100 values)
-- Total A (111..1110 values)
-- Total A+D 
+# Number Calculator
+
+A web-based calculator that allows users to:
+
+- Enter numbers or expressions (e.g., 200+300)
+- Automatically calculate values
+- Calculate column totals
+- Calculate Total D
+- Calculate Total A
+- Calculate Total A + D
+- Highlight values greater than 1000
+- Save multiple tables
+- Load saved tables
+- Edit saved tables
+- Delete saved tables
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+- LocalStorage
+
+## Live Demo
+
+(Add your deployed URL here)
