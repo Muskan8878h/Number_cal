@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Number Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+        <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Number Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Number Calculator</h2>
+
+<div class="buttons">
+    <button onclick="newTable()">New Table</button>
+    <button onclick="saveTable()">Save Table</button>
+    <button onclick="deleteTable()">Delete Saved Table</button>
+
+    <select id="savedTables" onchange="loadTable(this.value)">
+        <option value="">Saved Tables</option>
+    </select>
+</div>
+
+<div id="grid"></div>
+
+<h3>Column Totals</h3>
+
+<table id="totalsTable">
+    <thead>
+        <tr id="headRow"></tr>
+    </thead>
+    <tbody>
+        <tr id="valueRow"></tr>
+    </tbody>
+</table>
+
+<br>
+
+<p><b>Total D :</b> <span id="totalD"></span></p>
+<p><b>Total A :</b> <span id="totalA"></span></p>
+<p><b>Total A+D :</b> <span id="totalAD"></span></p>
+
+<script src="script.js"></script>
+
+</body>
+</html>
